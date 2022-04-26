@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&family=Ubuntu:ital,wght@0,400;1,300&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 40px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+  padding: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 18px;
+  letter-spacing: -0.075em;
+}
+
+/* this hole cars style  */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    max-width: 100%;
+    height: 163px;
+    margin: 40px 50px;
+    font-family: "Inter";
+    font-style: normal;
+}
+
+.card--img {
+  margin-right: 20px;
+}
+
+.card-icon {
+  margin-right: 5px;
+  width: 7px;
+  height: 9.55px;
+  left: calc(50% - 7px / 2 - 87.5px);
+  top: calc(50% - 9.55px / 2 - 227.23px);
+
+  background: #dadada;
+}
+
+.card-location {
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+
+  color: #2b283a;
+}
+
+.map-link > a {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  /* identical to box height */
+text-decoration-line: underline;
+color: #918e9b;
+}
+
+.card-title{
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+.date{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 12.24px;
+line-height: 12px;
+
+color: #2B283A;
+margin-bottom: 8px;
+
+}
+
+/* card descrition  */
+
+.card-description{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12.24px;
+line-height: 150%;
+/* or 15px */
+
+
+color: #2B283A;
+
+}
